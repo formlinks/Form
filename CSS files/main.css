@@ -27,7 +27,7 @@ input[type=text], select, textarea {
   
 }
 
-input[type=submit] {
+input[type=submit],  textarea  {
   background-color: #310000;
   color: white;
   padding: 12px 80px;
@@ -36,7 +36,8 @@ input[type=submit] {
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
-
+  text-align: center;
+  resize: vertical;
 }
 
 input[type=submit]:hover {
@@ -53,10 +54,13 @@ input[type=submit]:active {
   margin-left: auto;
   width: 80%;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 50px;
   display: flex;
-  justify-content: center;
+	justify-content: center;
   background-color: #5B100B;
+	
+  
+  
 }
 
 #register {
@@ -65,6 +69,7 @@ input[type=submit]:active {
 	font-size: 50px;
 	margin-top: 20px;
 	margin-bottom: 15px;
+
 }
 	
 input[type=date], select, textarea {
@@ -77,6 +82,7 @@ input[type=date], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   cursor: pointer
+	  
 }
 
 p{
@@ -84,5 +90,7 @@ p{
 	font-size: 18px;
 	margin-bottom: 10px;
 	}
+	
+	
 
 
