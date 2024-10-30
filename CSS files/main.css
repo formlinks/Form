@@ -84,3 +84,21 @@ p{
 	font-size: 18px;
 	margin-bottom: 10px;
 	}
+
+	@media (min-width: 600px) {
+		input[type=submit],  textarea  {
+  background-color: #310000;
+  color: white;
+  padding: 12px 80px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  resize: vertical;
+  width: 20%;
+}
+
+		
+	}
