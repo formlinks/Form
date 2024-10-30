@@ -51,7 +51,10 @@ input[type=submit]:active {
   margin-right: auto;
   margin-left: auto;
   width: 850px;
-  
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  background-color: #5B100B;
 }
 
 #register {
