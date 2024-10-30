@@ -52,11 +52,11 @@ input[type=submit]:active {
   padding: 20px;
   margin-right: auto;
   margin-left: auto;
-  width: 80%;
+  width: 85%;
   margin-top: auto;
   margin-bottom: 50px;
   display: flex;
-	justify-content: center;
+  justify-content: center;
   background-color: #5B100B;
 	
   
